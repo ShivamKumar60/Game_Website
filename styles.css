@@ -1,0 +1,105 @@
+*{
+    background-color: #121212;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar{
+    display: flex;
+    background: linear-gradient(93deg, rgb(0, 26, 255) 10.6%, rgb(255, 0, 0) 97.7%);
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+}
+
+
+h2{
+    background: transparent;
+
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+h2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+.head{
+    background: url(./wallpaperflare.com_wallpaper.jpg) no-repeat;
+    background-size: 100%;
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+#modern{
+    background: transparent;
+    letter-spacing: 3px;
+}
+.head h1{
+    font-size: 69px;
+    background: transparent;
+    letter-spacing: 10px;
+}
+
+#btn{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    letter-spacing: 8px;
+}
+#heading:hover{
+    color: red;
+    letter-spacing: 15px;
+    transition: 1s;
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+#newhead{
+    padding: 30px;
+    font-size: 44px;
+    font-style: italic;
+}
+#con1{
+    text-align: center;
+    width: 70%;
+    padding: 5%;
+    background-color: black;
+    box-shadow: 2px 2px 2px 1px rgb(255, 0, 0, 1);
+}
+#lap{
+    width: 50%;
+}
+.main1{
+    
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+#img{
+    width: 50%;
+    padding: 20px;
+}
+#newhead1{
+    padding-top: 30px;
+    font-size: 44px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
